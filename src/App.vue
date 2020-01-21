@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <appRuleDefinition></appRuleDefinition>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RuleDefinition from './components/RuleDefinition2.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    appRuleDefinition : RuleDefinition
   }
 }
 </script>
@@ -19,10 +18,7 @@ export default {
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-size: 12px;
   margin-top: 60px;
 }
 </style>

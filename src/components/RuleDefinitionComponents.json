@@ -1,0 +1,90 @@
+{
+    "groups": [
+        {
+            "name": "A",
+            "order" : 2,
+            "operation" : "or",
+            "properties" : [
+                {
+                    "name" : "Type",
+                    "order" : 1,
+                    "type" : "text",
+                    "values" : [],
+                    "propertyCount":1
+                },
+                {
+                    "name" : "ID",
+                    "order" : 2,
+                    "type" : "text",
+                    "values" : [],
+                    "propertyCount":1
+                }
+            ]
+        },
+        {
+            "name": "B",
+            "order" : 1,
+            "operation" : "or",
+            "properties" : [
+                {
+                    "name" : "Means of transport ID",
+                    "order" : 1,
+                    "type" : "text",
+                    "values" : [],
+                    "propertyCount":1
+                }
+            ]
+        },
+        {
+            "name": "C",
+            "order" : 3,
+            "operation" : "or",
+            "propertyCopies":1,
+            "properties" : [
+                {
+                    "name" : "Identifying country",
+                    "order" : 1,
+                    "type" : "text",
+                    "values" : [],
+                    "propertyCount":1
+                },
+                {
+                    "name" : "Country code",
+                    "order" : 2,
+                    "type" : "text",
+                    "values" : [],
+                    "propertyCount":1
+                }
+            ]
+        },
+        {
+            "name": "D",
+            "order" : 3,
+            "operation" : "or",
+            "propertyCopies":1,
+            "properties" : [
+                {
+                    "name" : "Country",
+                    "order" : 1,
+                    "type" : "text",
+                    "values" : [],
+                    "propertyCount":1
+                },
+                {
+                    "name" : "Procedure",
+                    "order" : 2,
+                    "type" : "text",
+                    "values" : [],
+                    "propertyCount":1
+                },
+                {
+                    "name" : "Document type",
+                    "order" : 3,
+                    "type" : "text",
+                    "values" : [],
+                    "propertyCount":1
+                }
+            ]
+        }
+    ]
+}
